@@ -14,7 +14,7 @@ public class Main2Activity extends AppCompatActivity {
 
 
         ArrayList<Leki> lekarstwo= new ArrayList<>();
-        lekarstwo.add(new Leki("Wibowita"1));
+        lekarstwo.add(new Leki("Wibowita",1));
 
 
     }

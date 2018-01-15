@@ -8,6 +8,9 @@ class Leki {
     public String nazwa;
     public Integer dawka;
 
+    public Leki(String wibowita, int i) {
+    }
+
     public String getNazwa() {
         return nazwa;
     }
