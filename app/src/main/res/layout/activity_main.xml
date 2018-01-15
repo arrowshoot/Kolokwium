@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.kolokwium_pycia.MainActivity">
+
+    <Button
+        android:layout_width="346dp"
+        android:layout_height="27dp"
+        android:background="@color/colorPrimary"
+        android:text="Zamow lek"
+        android:textColor="@android:color/white"
+
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wpisz pesel dla ktorego chcesz zamowic lek"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="54dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:gravity="center"
+        android:text="Podaj numer pesel"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="84dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:layout_width="109dp"
+        android:layout_height="102dp"
+        android:src="@drawable/ic_local_hospital_black_24dp"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="WYBIERZ LEK"
+        android:textColor="@android:color/white"
+
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="447dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
