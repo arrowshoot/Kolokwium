@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="100dp"
         android:gravity="center"
-        android:text="Podaj numer pesel"
+        android:hint="Podaj numer pesel"
         tools:layout_editor_absoluteX="24dp"
         tools:layout_editor_absoluteY="84dp"
         tools:ignore="MissingConstraints" />
@@ -53,7 +53,7 @@
         android:background="@color/colorPrimary"
         android:text="WYBIERZ LEK"
         android:textColor="@android:color/white"
-
+        android:id="@+id/wybierzlek"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="447dp"
         tools:ignore="MissingConstraints" />
