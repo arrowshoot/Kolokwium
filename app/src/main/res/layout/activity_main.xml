@@ -12,7 +12,7 @@
         android:background="@color/colorPrimary"
         android:text="Zamow lek"
         android:textColor="@android:color/white"
-
+        android:id="@+id/zamow"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="16dp"
         tools:ignore="MissingConstraints" />
